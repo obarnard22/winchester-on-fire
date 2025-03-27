@@ -3,7 +3,8 @@
 <form action="/login" method="POST">
     <div>
         <label for="identifier">User identifier</label>
-        <input type="text" name="identifier" id="identifier" required />
+        <input type="text" name="identifier" id="identifier" value="{{identifier}}" required />
+        <span style="color: darkred;">{{errorMessage}}</span>
     </div>
     <input type="submit" value="Log in" />
 </form>

@@ -18,7 +18,10 @@
     },
     "homepage": "https://github.com/obarnard22/winchester-on-fire#readme",
     "dependencies": {
+        "@dotenvx/dotenvx": "^1.39.0",
+        "cookie-parser": "^1.4.7",
         "express": "^4.21.2",
-        "express-handlebars": "^8.0.1"
+        "express-handlebars": "^8.0.1",
+        "express-session": "^1.18.1"
     }
 }

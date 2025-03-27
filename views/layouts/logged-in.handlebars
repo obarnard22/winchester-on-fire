@@ -2,10 +2,16 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>{{pageTitle}} - Winchester on Fire</title>
+    <title>{{title}} - Winchester Fire Wardens</title>
 </head>
 <body>
-    <p>Logged Vin as {{name}}.</p>
+    <a href="/">Winchester Fire Wardens</a>
+    <br />
+    <br />
+    <span>Logged in as {{name}}.</span>
+    <form action="/logout" method="POST" style="display: inline;">
+        <input type="submit" value="Log out" />
+    </form>
     <hr />
 
     {{{body}}}
